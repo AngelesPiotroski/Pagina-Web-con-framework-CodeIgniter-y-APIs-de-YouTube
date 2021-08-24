@@ -1,0 +1,203 @@
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.menu{
+    text-decoration: none;
+    color: black;
+}
+
+.cont_login{
+    display: flex;
+}
+
+.cont_login aside{
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+
+}
+#bannermar{
+    width:330px; 
+    height:390px;
+}
+
+.cont_login .formAndBotton{
+    flex: 50%;
+    padding-left: 15px;
+    height: 200px;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .cabecera {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navregis{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .colum1, .colum2 {
+        width: 100%;
+        margin-top: 0;
+      }
+    .buttonCrear{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+li {
+    display: inline;
+  }
+h1{
+    font-size: 1.5em;
+    color: black;
+    text-decoration:none;
+}
+h1:hover {
+    color: red;
+}
+a:link{
+    color: black;
+    text-decoration:none;
+}
+a{
+    color: black;
+}
+.cont_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0.5%;
+    margin-top: 10%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.afooter{
+    color: white;
+}
+input[type=text], input[type=password],input[type=email],[type=tel],input[type=date],[type=url] {
+    width: 60%;
+    padding: 6.4px 16px;
+    height: 9%;
+    margin: 0px 1.6px 0px 0px;
+}
+
+#calle,#pais,#ciudad {
+    width: 60%;
+    padding: 6.4px 16px;
+    height: 9%;
+    margin: 0px 1.6px 0px 0px;
+}
+
+
+#buttoncrearcuenta{
+    width: 37%;
+    border: 3;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+
+hr {
+    display: flex;
+    width: 40%;
+    border-color: black;
+    margin-left: 0%;
+  }
+
+
+.cont_datos{
+    display: flex;
+    height: 100%;
+    
+}
+.banner_der{
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    flex-direction: column;
+}
+.conten_form_reg{
+    display: flex;
+    flex: 50%;
+    padding-left: 15px;
+    height:390px;
+    overflow-y: scroll;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.navregis{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    
+}
+.datos{
+    display: flex;
+    flex: 50%;
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: flex-start;
+    padding-left: 3%;
+}
+.datos:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.colum1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.colum2 {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+}
+.subtitulos{
+    font-size: 1em;
+    color: black;
+    text-decoration:none;
+    padding-left: 2%;
+}
+
+.buttonReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+   
+    height: 200px;
+}
